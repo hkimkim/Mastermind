@@ -1,6 +1,6 @@
-# MasterMind for Sinle Player 
+# MasterMind for Single Player 
 
-Author: Heekyung Kim 
+Author: Heekyung Kim  
 Date: April 23, 2021
 
 ## Description: 
@@ -13,7 +13,9 @@ The View is the GUI of the game screen, which receives user input through screen
 
 ## How to Run the Program in the terminal
 
-``python3 mastermind.py``
+``` 
+python3 mastermind.py
+```
 
 ## Files included in the program:
 constants.py			      Python file that contains all the constants  
