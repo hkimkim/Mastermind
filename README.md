@@ -1,11 +1,19 @@
-# MasterMind for One Player 
+# MasterMind for Sinle Player 
 
-Author: Heekyung Kim
+Author: Heekyung Kim 
 Date: April 23, 2021
 
-## I. Description:
+## Description: 
+
 This program simulates the MasterMind Game for one player via GUI. The program creates 4 color secret code, which the player must guess within 10 rounds. The player is given hints via score key pegs each round, where black peg represents correct color in correct position of the player's guess and red peg represents correct color but out of position.
----
+
+## Design
+This program was designed based on the Model-View-Controller software design. 
+The View is the GUI of the game screen, which receives user input through screen click event and displays data retrieved from Model. The Model is the game data, where the data for game is stored and manipulated upon player request. The Controller was the bridge between the GUI and the data of the program.
+
+## How to Run the Program
+
+``` Run "python3 mastermind.py" in terminal.```
 
 ## Files included in the program:
 constants.py			Python file that contains all the constants
@@ -34,21 +42,10 @@ test_mastermind_game.py		Test file for the Model class that test the game functi
    start.gif			image for start button
    winner.gif			image for win message
    reset.gif			image for reset button
------
 
-III. Running the program
-
-```Run "python3 mastermind.py" in terminal.```
----
-
-IV. Languages/Modules used:
+## Languages/Modules used:
  - Python
  - PyUnit
  - python turtle module
  - time 
  - random
-
-V. Design
-This program was designed based on the Model-View-Controller software design. 
-The View is the GUI of the game screen, which receives user input through screen click event and displays data retrieved from Model. The Model is the game data, where the data for game is stored and manipulated upon player request. The Controller was the bridge between the GUI and the data of the program.
----
