@@ -18,32 +18,36 @@ python3 mastermind.py
 ```
 
 ## Files included in the program:
-- constants.py: Python file that contains all the constants  
-- Controller.py: Python file with Controller class that links data and GUI  
-- Model.py: Python file with Model class that manages game data  
-- View.py: Python file with View class that manages GUI  
-- mastermind.py:  driver file to run the game  
-- test_mastermind_game.py: Test file for the Model class that test the game functions (PyUnit)  
+```
+final_project
+├── Controller.py: Python file with Controller class that links data and GUI 
+├── Model.py: Python file with Model class that manages game data  
+├── View.py: Python file with View class that manages GUI  
+├── constants.py: Python file that contains all the constants 
+├── mastermind.py: driver file to run the game  
+└── test_mastermind_game.py: Test file for the Model class that test the game functions (PyUnit) 
 
-**/gui**			&emsp;&emsp;&emsp;&emsp;	   Directory that contains class files used in View.py  
-   Board.py &emsp;&emsp;&emsp;&emsp;			Python file with Board class  
-   Button.py &emsp;&emsp;&emsp;&emsp;	Python file with Button class  
-   Marble.py &emsp;&emsp;&emsp;&emsp;	Python file with Marble class  
-   Point.py	&emsp;&emsp;&emsp;&emsp;		Point file with Point class  
-   Pointer.py &emsp;&emsp;&emsp;&emsp;	Pointer file with Pointer class  
-   Popup.py	&emsp;&emsp;&emsp;&emsp;		Popup file with PopUp class  
+gui: Directory that contains class files used in View.py
+├── Board.py: Python file with Board class  
+├── Button.py: Python file with Button class  
+├── Marble.py: Python file with Marble class
+├── Point.py: Point file with Point class 
+├── Pointer.py: Pointer file with Pointer class
+└── Popup.py: Popup file with PopUp class  
 
-**/img**		&emsp;&emsp;&emsp;&emsp;		            Directory that contains all the gif used in the program  
-   checkbutton.gif   &emsp;&emsp;&emsp;&emsp;     image for check button  
-   file_error.gif		&emsp;&emsp;&emsp;&emsp;      image for file error message  
-   leaderboard_error.gif &emsp;&emsp;&emsp;&emsp;	image for leaderboard file error message  
-   logo.gif	&emsp;&emsp;&emsp;&emsp;		         image for logo  
-   Lose.gif	&emsp;&emsp;&emsp;&emsp;		         image for lose message  
-   quit.gif	&emsp;&emsp;&emsp;&emsp;		         image for quit button  
-   quitmsg.gif	&emsp;&emsp;&emsp;&emsp;		      image for quit message  
-   start.gif	&emsp;&emsp;&emsp;&emsp;		      image for start button  
-   winner.gif	&emsp;&emsp;&emsp;&emsp;		      image for win message  
-   reset.gif	&emsp;&emsp;&emsp;&emsp;		      image for reset button  
+img: Directory that contains all the gif used in the program  
+├── Lose.gif
+├── checkbutton.gif
+├── file_error.gif
+├── leaderboard_error.gif
+├── logo.gif
+├── quit.gif
+├── quitmsg.gif
+├── reset.gif
+├── start.gif
+└── winner.gif
+
+```
 
 ## Languages/Modules used:
  - Python
