@@ -18,32 +18,32 @@ python3 mastermind.py
 ```
 
 ## Files included in the program:
-constants.py			      Python file that contains all the constants  
-Controller.py			      Python file with Controller class that links data and GUI  
-Model.py				         Python file with Model class that manages game data  
-View.py				         Python file with View class that manages GUI  
-mastermind.py			      driver file to run the game  
-test_mastermind_game.py		Test file for the Model class that test the game functions (PyUnit)  
+- constants.py: Python file that contains all the constants  
+- Controller.py: Python file with Controller class that links data and GUI  
+- Model.py: Python file with Model class that manages game data  
+- View.py: Python file with View class that manages GUI  
+- mastermind.py:  driver file to run the game  
+- test_mastermind_game.py: Test file for the Model class that test the game functions (PyUnit)  
 
-/gui				   Directory that contains class files used in View.py  
-   Board.py			Python file with Board class  
-   Button.py		Python file with Button class  
-   Marble.py		Python file with Marble class  
-   Point.py			Point file with Point class  
-   Pointer.py		Pointer file with Pointer class  
-   Popup.py			Popup file with PopUp class  
+/gui			&emsp&emsp&emsp&emsp	   Directory that contains class files used in View.py  
+   Board.py &emsp&emsp			Python file with Board class  
+   Button.py &emsp&emsp		Python file with Button class  
+   Marble.py &emsp&emsp		Python file with Marble class  
+   Point.py	&emsp&emsp		Point file with Point class  
+   Pointer.py &emsp&emsp	Pointer file with Pointer class  
+   Popup.py	&emsp&emsp		Popup file with PopUp class  
 
-/img				            Directory that contains all the gif used in the program  
-   checkbutton.gif         image for check button  
-   file_error.gif		      image for file error message  
-   leaderboard_error.gif	image for leaderboard file error message  
-   logo.gif			         image for logo  
-   Lose.gif			         image for lose message  
-   quit.gif			         image for quit button  
-   quitmsg.gif			      image for quit message  
-   start.gif			      image for start button  
-   winner.gif			      image for win message  
-   reset.gif			      image for reset button  
+/img		&emsp&emsp&emsp&emsp		            Directory that contains all the gif used in the program  
+   checkbutton.gif   &emsp&emsp      image for check button  
+   file_error.gif		&emsp&emsp      image for file error message  
+   leaderboard_error.gif &emsp&emsp	image for leaderboard file error message  
+   logo.gif	&emsp&emsp		         image for logo  
+   Lose.gif	&emsp&emsp		         image for lose message  
+   quit.gif	&emsp&emsp		         image for quit button  
+   quitmsg.gif	&emsp&emsp		      image for quit message  
+   start.gif	&emsp&emsp		      image for start button  
+   winner.gif	&emsp&emsp		      image for win message  
+   reset.gif	&emsp&emsp		      image for reset button  
 
 ## Languages/Modules used:
  - Python
