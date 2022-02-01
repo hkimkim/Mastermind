@@ -9,7 +9,7 @@ This program simulates the MasterMind Game for one player via GUI. The program c
 
 ## Design
 This program was designed based on the Model-View-Controller software design. 
-The View is the GUI of the game screen, which receives user input through screen click event and displays data retrieved from Model. The Model is the game data, where the data for game is stored and manipulated upon player request. The Controller was the bridge between the GUI and the data of the program.
+The View is the GUI of the game screen, which receives user input through screen click event and displays data retrieved from Model. The Model is the game data, where the data for game is stored and manipulated upon player request. The Controller is the bridge between the GUI and the data of the program.
 
 ## How to Run the Program in the terminal
 
@@ -52,6 +52,6 @@ img: Directory that contains all the gif used in the program
 ## Languages/Modules used:
  - Python
  - PyUnit
- - python turtle module
- - time 
- - random
+ - Python turtle module
+ - time module 
+ - random module
